@@ -1,0 +1,30 @@
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:rgb(106, 102, 102); /* Primary color */
+    border: none;
+    border-radius: 50px; /* Makes the button a pill shape */
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin: 1rem;
+    
+}
+
+.back-button:hover {
+    background-color:rgb(106, 102, 102); /* Darker shade on hover */
+}
+
+.back-button:focus {
+    outline: none;
+}
+
+.back-button:active {
+    background-color: rgb(84, 79, 79)  ; /* Even darker shade when active */
+    
+    transform: translateY(2px); /* Slightly move the button down */
+}
